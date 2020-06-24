@@ -1,5 +1,0 @@
-SQL_USERNAME = "pandas_etl"
-SQL_PASSWORD = "pandas_etl"
-SQL_IP = "34.72.119.225"
-PORT = "5432"
-DATABASE = "pandas_etl"
