@@ -10,7 +10,7 @@
 
 
 
-# ETL: Project Activities
+# ETL: Project Activities (Completed)
 
     • Update web scale function to capture Spotify Viral 50 charts as well as Top 200 charts
     • Ensure web scrape function creates dataframe with the desired fields in the "tracks" table. As illustrated in the ERD diagram (ERD_diagram.png)
