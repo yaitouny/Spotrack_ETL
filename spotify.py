@@ -73,7 +73,7 @@ class Spotify():
             connection_string = f"postgresql+psycopg2://{SQL_USERNAME}:{SQL_PASSWORD}@{SQL_IP}:{PORT}/{DATABASE}"
             engine = create_engine(connection_string)
             conn =  engine.connect()
-            
+         
             #Load DataFrame into Database 
             df.to_sql(name=table, con=conn, if_exists='append',index=False)
             
@@ -90,7 +90,7 @@ class Spotify():
             conn =  engine.connect()
             
             #Query to Empty Table
-            stmt = table.delete()
+            stmt =  """delete from tracks;"""
             conn.execute(stmt)
             
             #Disconnect from Database

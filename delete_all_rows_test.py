@@ -7,4 +7,6 @@ from spotify import Spotify
 
 spotify = Spotify()
 
-spotify.emptyTracksTable('tracks')
+
+spotify.emptyTracksTable()
+

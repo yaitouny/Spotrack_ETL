@@ -7,6 +7,11 @@ from spotify import Spotify
 
 spotify = Spotify()
 
+#Empty Existing Records in Table
+print('Empty Existing Records in Table')
+spotify.emptyTracksTable()
+print()
+
 #Create DataFrames from Top200 & Viral 50 Charts
 #data = spotify.webScrapeSpotify()
 print('Scraping Spotify Top 200 Global')
