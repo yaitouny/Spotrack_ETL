@@ -17,8 +17,7 @@ CREATE VIEW top_200_global AS
 	WHERE
 		t.chart_id = 2 AND t.region_id = 1
 	ORDER BY
-		t."position" 
-	LIMIT 10;
+		t."position";
 
 
 --- View 2: Top 200 // US
@@ -40,8 +39,7 @@ CREATE VIEW top_200_us AS
 	where
 		t.chart_id = 2 and t.region_id = 2
 	order by
-		t."position" 
-	limit 10;
+		t."position";
 
 
 --- View 3: Top 200 // UK
@@ -63,8 +61,7 @@ CREATE VIEW top_200_uk AS
 	where
 		t.chart_id = 2 and t.region_id = 3
 	order by
-		t."position" 
-	limit 10;
+		t."position";
 
 
 --- View 4: Viral 50 // Global
@@ -85,8 +82,7 @@ CREATE VIEW viral_50_global AS
 	where
 		t.chart_id = 1 and t.region_id = 1
 	order by
-		t."position" 
-	limit 10;
+		t."position";
 
 
 --- View 5: Viral 50 // US
@@ -107,8 +103,7 @@ CREATE VIEW viral_50_us AS
 	where
 		t.chart_id = 1 and t.region_id = 2
 	order by
-		t."position" 
-	limit 10;
+		t."position";
 
 
 --- View 6: Viral 50 // UK
@@ -129,6 +124,4 @@ CREATE VIEW viral_50_uk AS
 	where
 		t.chart_id = 1 and t.region_id = 3
 	order by
-		t."position" 
-	limit 10;
-
+		t."position";
